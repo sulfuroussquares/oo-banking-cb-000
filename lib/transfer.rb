@@ -12,7 +12,7 @@ def valid?
   #The complicated way to validate bank accounts
   #if @sender.status == "open" && @sender.balance > 0 && @receiver.status == "open" && @receiver.balance > 0
   #The smooth way to validate bank accounts
-  if @sender.valid? && @receiver.valid? && (@sender.balance >= @amount)
+  if @sender.valid? && @receiver.valid? #&& (@sender.balance >= @amount)
     true
   else
     false
