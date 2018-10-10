@@ -31,6 +31,9 @@ end #endif
 end
 
 def reverse_transfer
+  if @status = "complete"
+  else
+  end
 end
 
 end
