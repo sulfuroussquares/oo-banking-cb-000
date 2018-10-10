@@ -26,7 +26,7 @@ if self.valid? && @status == "pending" && @sender.balance > @amount
   @status = "complete"
 else
   "Transaction rejected. Please check your account balance."
-  @status = "Transaction rejected. Please check your account balance."
+  @status = "rejected"
 end #endif
 end
 
